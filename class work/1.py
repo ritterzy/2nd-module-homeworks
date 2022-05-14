@@ -6,13 +6,9 @@ class Person:
     def __init__(self, name , birth_year):
         self.name = name
         self.birth_year=birth_year
-    def Sayhello(self):
+    def Sayhello(this):
         from datetime import datetime
-        return f'Hi! I am {self.name} f,I am {datetime.today().year - self.birth_year} years old'
-    
-    
-    
-
+        return f'Hi! I am {this.name} f,I am {datetime.today().year - this.birth_year} years old'
 
 person1=Person('Iskander',2008)
 person2=Person('Shavkat',2008)
