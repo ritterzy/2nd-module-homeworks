@@ -10,11 +10,11 @@ class Car:
     def available_distance(self):
         return f'your available distance is {self.oil} L for {self.oil / 0.15} km'
     def ride(self):
-        time = (self.distance / 70) % 2
+        time = self.distance / 70
         consumed = self.distance * 0.15
         balance=self.oil - consumed
         return f'''
-        Time: {time} Hrs
+        Time: {round(time,1)} Hrs
         Consumed oil: {consumed}
         Remaining fuel: {balance}'''
         
