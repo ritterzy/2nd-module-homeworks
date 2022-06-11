@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Info about customer of restaurant</h1>
+    <fieldset>
+        <legend>Contact information:</legend>
+        <form action="#">
+            <div>
+                Name : <input type="text" name="name">
+            </div>
+            <div>
+                Telephone : <input type="number" name="Tel">
+            </div>
+            <div>
+                Email : <input type="email" name="email">
+            </div>
+            <div>
+                Date of visit : <input type="date" name="date">
+            </div>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Personal information</legend>
+        <div>
+            Age :<input type="date" name="date">
+        </div>
+        <p>
+            Cuisine : <select name="Cuisines"">
+                <optgroup label="Cuisines">
+                    <option value="Uzbek">Uzbek</option>
+                    <option value="StFood">Russian</option>
+                    <option value="French">French</option>
+                </optgroup>
+            </select>
+        </p>
+        <div>
+            <pre>Which dishes do you advise to put on menu? <textarea name="advise"cols="40" rows="3"></textarea></pre>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Rate of restaurant</legend>
+        <h2>Why you choosed our restaurant?</h2>
+        <label>
+            <div>
+                <input type="radio" name="factor"> Close to home/work 
+            </div>
+        <label>
+            <div>
+                <input type="radio" name="factor">Noticed in Ad
+            </div>
+        </label>
+        <label>
+            <input type="radio" name="factor"> Optimal price and quality
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Will you recomend us?</legend>
+        <label>
+            <input type="radio" name="fact"> Yes
+        </label>
+        <label>
+            <input type="radio" name="fact"> No
+        </label>
+    </fieldset>
+    <div>
+        <input type="submit" value="Send" >
+    </div>
+</body>
+</html>
