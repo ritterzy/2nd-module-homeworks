@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="#">
+        <h2> Registretion of baby</h2>
+        <fieldset>
+            <legend>Information about baby</legend>
+        <table>
+            <tr>
+                <td><label for="firstName">Name: </label></td>
+                <td><input type="text" id="firstName" name="firstName"></td>
+            </tr>
+            <tr>
+                <td><label for="secondName">Surname: </label></td>
+                <td><input type="text" id="secondName" name="secondName"></td>
+            </tr>
+            <tr>
+                <td><label for="birthData">Birth data: </label></td>
+                <td><input type="date" id="birthData" name="data" min="2022-o6-21"></td>
+            </tr>
+            <tr>
+                <td><label for="Placeofbirth">Place of birth:</label></td>
+                <td>
+                    <select id="Placeofbirth" name="place">
+                        <optgroup label="Uzbekistan">
+                            <option value="Tashkent">Tashkent</option>
+                            <option value="Fergana">Fergana</option>
+                            <option value="Navoi">Navoi</option>
+                            <option value="Other">Other</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="region">region: </label></td>
+                <td><input type="text" id="region" name="region"></td>
+            </tr>
+            <tr>
+                <td><label for="district">district: </label></td>
+                <td><input type="text" id="district" name="district"></td>
+            </tr>
+            <tr>
+                <td><label for="cityVillage">city,village: </label></td>
+                <td><input type="text" id="cittyVillage" name="cittyVillage"></td>
+            </tr>
+            
+
+        </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Information about parents</legend>
+            <table>
+                <tr>
+                    <td><label for="firstNameD">Name of dad: </label></td>
+                    <td><input type="text" id="firstNameD" name="firstNameD"></td>
+                </tr>
+                <tr>
+                    <td><label for="secondNameD">Surname of Dad: </label></td>
+                    <td><input type="text" id="secondNameD" name="secondNameD"></td>
+                </tr>
+                <tr>
+                    <td><label for="AgeD">Date of birth:</label></td>
+                    <td><input type="date" name="AgeD" min="2022-o6-21"></td>
+                </tr>
+                <tr>
+                    <td><label for="NationalityD">Nationality:</label></td>
+                    <td><input type="text" name="Nationality" id="NationalityD"></td>
+                </tr>
+                <tr>
+                    <td><label for="firstNameM">Name of mother: </label></td>
+                    <td><input type="text" id="firstNameM" name="firstNameM"></td>
+                </tr>
+                <tr>
+                    <td><label for="secondNameM">Surname of mother: </label></td>
+                    <td><input type="text" id="secondNameM" name="secondNameM"></td>
+                </tr>
+                <tr>
+                    <td><label for="AgeM">Date of birth:</label></td>
+                    <td><input type="date" name="AgeM" min="2022-o6-21" id="AgeM"></td>
+                </tr>
+                <tr>
+                    <td><label for="NationalityM">Nationality:</label></td>
+                    <td><input type="text" name="NationalityM" id="NationalityM"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <div>
+            <input type="submit" value="Registration" >
+        </div>
+    </form>
+        
+        
+</body>
+</html>
