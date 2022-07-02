@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.picture{
+    height: 100vh;
+    background-image: url(https://stickersvk.com/ru/persik/61/);
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
